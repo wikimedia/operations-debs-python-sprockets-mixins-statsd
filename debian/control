@@ -1,0 +1,23 @@
+Source: python-sprockets-mixins-statsd
+Maintainer:  Andrew Otto (WMF) <otto@wikimedia.org>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 9),
+  python-all (>= 2.7), python-setuptools,
+  python3-all, python3-setuptools, dh-python
+Homepage: https://github.com/sprockets/sprockets.mixins.statsd
+Standards-Version: 3.9.3
+
+Package: python-sprockets-mixins-statsd
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-sprockets-clients-statsd
+Description: statsd mixin for tornado.web.RequestHandler to send request stats to statsd
+ The ``RequestMetricsMixin`` mixin will automatically instrument requests by
+ sending statsd increment and timing values as each request finishes.
+
+Package: python3-sprockets-mixins-statsd
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python3-sprockets-clients-statsd
+Description: statsd mixin for tornado.web.RequestHandler to send request stats to statsd
+ The ``RequestMetricsMixin`` mixin will automatically instrument requests by
+ sending statsd increment and timing values as each request finishes.
