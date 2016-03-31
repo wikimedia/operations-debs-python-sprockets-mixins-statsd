@@ -10,14 +10,14 @@ Standards-Version: 3.9.3
 
 Package: python-sprockets-mixins-statsd
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python-sprockets-clients-statsd
+Depends: ${misc:Depends}, ${python:Depends}
 Description: statsd mixin for tornado.web.RequestHandler to send request stats to statsd
  The ``RequestMetricsMixin`` mixin will automatically instrument requests by
  sending statsd increment and timing values as each request finishes.
 
 Package: python3-sprockets-mixins-statsd
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python3-sprockets-clients-statsd
+Depends: ${misc:Depends}, ${python3:Depends}
 Description: statsd mixin for tornado.web.RequestHandler to send request stats to statsd
  The ``RequestMetricsMixin`` mixin will automatically instrument requests by
  sending statsd increment and timing values as each request finishes.

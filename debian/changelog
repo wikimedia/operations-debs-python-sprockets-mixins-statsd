@@ -1,3 +1,9 @@
+python-sprockets-mixins-statsd (1.3.1-2) unstable; urgency=low
+
+  * Use pydist-overrides to translate from sprockets.clients.statsd to python-sprockets-clients-statsd
+
+ -- Andrew Otto (WMF) <otto@wikimedia.org>  Thu, 31 Mar 2016 17:31:06 +0000
+
 python-sprockets-mixins-statsd (1.3.1-1) unstable; urgency=low
 
   * Upstream release of 1.3.1
